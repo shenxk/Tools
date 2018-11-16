@@ -1,4 +1,5 @@
-实用工具包
+编程实用的工具包
+
 1.Config 类
 	一般程序启动时加载配置文件：Cfg:=Tools.LoadConfig(path),
 	使用Tools.Cfgs定义Cfg变量,一般情况把Cfg设为全局变量，或者传入需要使用配置数据的函数
