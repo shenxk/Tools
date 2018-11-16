@@ -75,6 +75,7 @@ func (this Cfgs) GetValue(section, key string) (string, error) {
 	}
 
 }
+
 func (this Cfgs) SetBool(section, key string, value bool) error {
 	_, ok := this[section]
 	if ok {
